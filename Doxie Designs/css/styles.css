@@ -1,0 +1,142 @@
+/* Selelctors */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5vw;
+  font-weight: normal;
+  padding: 5vw 0 0;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5vw;
+}
+
+h3 {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a {
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+p {
+  line-height: 2;
+}
+
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-family: 'Sacramento', cursive;
+  line-height: 1;
+  padding-left: 5vw;
+}
+
+.nav-item {
+  padding: 0 2.5vw;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* Top Container */
+#topcontainer {
+  text-align: center;
+  background-color: #BEDCFA;
+
+}
+
+#topcontainer h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5vw;
+  font-weight: normal;
+  padding: 15vw 5vw 0 0;
+  float: right;
+}
+
+.logo {
+  width: 35vw;
+  text-align: left;
+  padding: 0;
+}
+
+/* Middle Container */
+.middle-container {
+  text-align: center;
+  background-color: #DA9FF9;
+  padding: 5vw 5vw;
+}
+.container-fluid {
+  height: 20vw;
+}
+
+.doxie {
+  width: 10vw;
+}
+
+#middlecontainer h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5vw;
+  font-weight: normal;
+  padding-bottom: 5vw;
+}
+
+.shirt {
+  width: 20vw;
+  padding: 1vw 1vw;
+}
+
+.download-button {
+  margin: 5% 3% 0;
+}
+
+/* Contact Container */
+#contact {
+  background-color: #BEDCFA;
+  padding: 50px 0 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5vw;
+  font-weight: normal;
+}
+
+.contact-message {
+  width: 40vw;
+  margin: 40px auto 60px;
+}
+
+#contact .download-button {
+  margin: 2% 3% 3%;
+}
+.bottom-container {
+  background-color: #98ACF8;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.copyright {
+  color: #000;
+  font-size: : .75vw;
+  padding: 20px 0;
+}
